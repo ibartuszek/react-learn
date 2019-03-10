@@ -3,16 +3,11 @@ import React, { Component } from "react";
 class Counter extends Component {
   state = {
     value: this.props.counter.value
-    // id: this.props.id
   };
 
   handleIncrement = () => {
     this.setState({ value: this.state.value + 1 });
   };
-
-  //doHandleIncrement = () => {
-  //  this.handleIncrement({ id: 1 });
-  //};
 
   render() {
     return (
