@@ -1,0 +1,57 @@
+links:
+https://www.youtube.com/results?search_query=complete+react+tutorial+%28%26+redux%29+%231
+https://github.com/iamshaunjp/react-redux-complete-playlist
+code.visualstudio.com + plugin: ES7 React/Redux/GraphQl/React-native snippets + Sublime Babel + Monokai++ Theme + Live Server 5.1.1
+chrome: webstore: react developer tools
+
+### 7 ###
+// e event object
+handleClick(e){
+	console.log(e.taget);
+}
+//  without parenthesis -> reference to method. With parenthesis invoke the method.
+<button onClick={this.handleClick}>Click Me</button>
+
+// onMouseOver
+handleMouseOver(e){
+	// cursor x position
+	console.log(e.pageX);
+}
+
+### 8 Manipulate properties - content binding, change state ###
+handleClick = (e) => {
+	// this = instance
+	console.log(this.state);
+	// change property statethis.setState({
+		name: 'Yoshi',
+		age: 25
+	})
+}
+
+<button onClick={this.handleClick}>Click Me</button>
+
+### 9 Forms ###
+
+handleChange = (e) => {
+	this.setState({
+		name: e.target.value;
+	})
+}
+
+handleSubmit = (e) => {
+	// prevent page refresh
+	e.preventDefault();
+	console.log('form submitted', this.state.name);
+}
+
+// enter + click submit
+<form onSubmit={this.handleSubmit}>
+	<input type="text" onChange={this.handleChange} />
+	<button>Submit</button>
+</form>
+
+### 10 create-react-app ###
+
+### 11 single page apps ###
+
+### 12 nesting components ###
