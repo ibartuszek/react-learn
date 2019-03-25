@@ -50,8 +50,15 @@ handleSubmit = (e) => {
 	<button>Submit</button>
 </form>
 
-### 10 create-react-app ###
+https://materializecss.com/
 
-### 11 single page apps ###
+### 25 Router ###
+npm install react-router-dom
 
-### 12 nesting components ###
+https://jsonplaceholder.typicode.com/
+npm install axios
+
+npm install redux
+npm install react-redux
+
+39
