@@ -1,2 +1,32 @@
 https://www.youtube.com/watch?v=Oi4v5uxTY5o
 github: https://github.com/iamshaunjp/React-Redux-Firebase-App
+https://materializecss.com/
+
+npx create-react-app marioplan
+
+Delete app.css, test, logo.png
+
+import index.html:
+<!--Import Google Icon Font-->
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> 
+<!-- Compiled and minified CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+<!-- Compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+npm install react-router-dom
+
+ES7 React/Redux/GraphQL/React-Native snippets: imr / imrc / rfc / rce
+
+npm install redux react-redux
+npm install redux-thunk
+npm install firebase
+npm install react-redux-firebase redux-firestore
+
+npm i --save react-redux-firebase@latest
+
+Firebase:
+https://firebase.google.com/
+
+
+20
